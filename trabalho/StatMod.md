@@ -15,7 +15,7 @@ Este fenômeno é conhecido como **sobredispersão**, e se não for tratado de f
 
 ---
 
-### 1.1 Questão 1 - Análise Exploratória
+### Questão 1 - Análise Exploratória
 
 Para este exercício vamos considerar o conjunto de dados `RecreationDemand` do pacote **AER**. Os dados são sobre o número de viagens recreativas de barco para o Lago Somerville, Texas, em 1980, com base em uma pesquisa aplicada a 2.000 proprietários de barcos de lazer registrados em 23 condados do leste do Texas.
 
@@ -26,7 +26,7 @@ Para este exercício vamos considerar o conjunto de dados `RecreationDemand` do 
 
 ---
 
-### 1.2 Questão 2 - Ajuste do Modelo Poisson
+### Questão 2 - Ajuste do Modelo Poisson
 
 - Ajuste um modelo de regressão de Poisson aos dados.  
 - Que métodos você usou e por quê?  
@@ -37,7 +37,7 @@ Justifique cuidadosamente cada resposta.
 
 ---
 
-### 1.3 Questão 3 - Um teste para sobredispersão
+### Questão 3 - Um teste para sobredispersão
 
 Cameron & Trivedi (1990) desenvolveram um teste de hipóteses para detectar a presença de sobredispersão. O teste parametriza a variância como:
 
@@ -56,9 +56,9 @@ Fazemos o teste em 3 etapas:
 
 1. Ajustar um GLM Poisson e obter os valores de média ajustados μ̂ᵢ.
 2. Computar a estatística de teste:
-   \[
+   $
    Z_i = \frac{(Y_i - \hat{\mu}_i)^2 - Y_i}{\hat{\mu}_i \sqrt{2}}
-   \]
+   $
 3. Regressar Zᵢ em μ̂ᵢ sem intercepto e realizar um teste-t no coeficiente da regressão.  
    A significância do coeficiente indica a presença ou não de sobredispersão.
 
@@ -66,7 +66,7 @@ Fazemos o teste em 3 etapas:
 
 ---
 
-### 1.4 Questão 4 - Modelos Alternativos
+### Questão 4 - Modelos Alternativos
 
 Caso seja detectada a presença de sobredispersão, outros modelos podem ser utilizados para melhor ajustar os dados. 
 
@@ -78,7 +78,7 @@ Um exemplo seria trocar a Poisson por uma **Binomial Negativa**.
 
 ---
 
-### 1.5 Extra: Excesso de Zeros
+### Extra: Excesso de Zeros
 
 A sobredispersão pode ser causada por outros fenômenos em dados de contagem como **excesso de zeros**, trazendo a média próxima ao aglomerado de zeros.
 
