@@ -1,0 +1,27 @@
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:                  trips   No. Observations:                  659
+Model:                            GLM   Df Residuals:                      647
+Model Family:        NegativeBinomial   Df Model:                           11
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -1303.0
+Date:                Fri, 30 May 2025   Deviance:                       1797.0
+Time:                        18:23:48   Pearson chi2:                 3.29e+03
+No. Iterations:                    10   Pseudo R-squ. (CS):             0.9656
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+Intercept                     7.3255      0.537     13.631      0.000       6.272       8.379
+quality                      -0.5412      0.149     -3.643      0.000      -0.832      -0.250
+costS_log                    -2.4176      0.165    -14.634      0.000      -2.741      -2.094
+quality:costS_log             0.3514      0.044      8.059      0.000       0.266       0.437
+userfee                      -6.0863      1.297     -4.692      0.000      -8.629      -3.544
+ski                          -4.4980      0.917     -4.905      0.000      -6.295      -2.701
+quality:userfee               1.8060      0.442      4.085      0.000       0.940       2.672
+quality:ski                   0.8940      0.240      3.720      0.000       0.423       1.365
+costS_log:userfee             2.4625      0.369      6.672      0.000       1.739       3.186
+costS_log:ski                 1.5820      0.251      6.303      0.000       1.090       2.074
+quality:costS_log:userfee    -0.6328      0.125     -5.079      0.000      -0.877      -0.389
+quality:costS_log:ski        -0.3032      0.065     -4.671      0.000      -0.430      -0.176
+=============================================================================================
