@@ -39,9 +39,7 @@ Para cada critério, apenas uma caixa será marcada. As opções estão em ordem
 - [ ] **(+)** A escolha de método numérico (Newton, IWLS, Fisher scoring, MAP, MCMC) é adequada.  
 - [ ] **(++)** A escolha de método numérico (Newton, IWLS, Fisher scoring, MAP, MCMC) é ótima em relação ao tamanho e complexidade do(s) problema(s) de inferência resultante(s).  
 
----
-
-## Diagnósticos (numéricos e estatísticos)
+### Diagnósticos (numéricos e estatísticos)
 - [ ] **(-)** Os diagnósticos empregados são inadequados, pouco sensíveis ou insuficientes.  
 - [ ] **(+)** Os diagnósticos empregados são adequados, sensíveis e amplos.  
 - [ ] **(++)** Os diagnósticos empregados são perfeitamente adequados e exploram a estrutura do problema e do modelo assumido.  
