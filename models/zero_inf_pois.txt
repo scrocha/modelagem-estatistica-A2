@@ -4,7 +4,7 @@ Dep. Variable:                   trips   No. Observations:                  659
 Model:             ZeroInflatedPoisson   Df Residuals:                      652
 Method:                            MLE   Df Model:                            6
 Date:                 Fri, 30 May 2025   Pseudo R-squ.:                  0.2290
-Time:                         18:44:44   Log-Likelihood:                -1351.2
+Time:                         21:07:57   Log-Likelihood:                -1351.2
 converged:                        True   LL-Null:                       -1752.5
 Covariance Type:             nonrobust   LLR p-value:                4.260e-170
 =====================================================================================
